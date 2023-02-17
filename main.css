@@ -1,0 +1,91 @@
+/* fuentes externas*/
+@font-face {
+  font-family: "NotoSerif";
+  src: url(/assets/tipografia/NotoSerif-Regular.ttf);
+  font-display: swap;
+}
+@font-face {
+  font-family: "Nunito";
+  src: url(/assets/tipografia/Nunito-Regular.ttf);
+  font-display: swap;
+}
+
+body {
+  font-family: "Nunito";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 17.6px;
+  letter-spacing: 1%;
+}
+
+h1 {
+  font-family: "NotoSerif";
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 39.6px;
+}
+
+h2 {
+  font-size: 24px;
+  line-height: 26.4px;
+}
+
+.heading__title {
+  position: absolute;
+  width: 410px;
+  height: 40px;
+  left: 159px;
+  top: 70px;
+
+  line-height: 110%;
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.01em;
+}
+
+.heading__subtitle {
+  position: absolute;
+  width: 101px;
+  height: 26px;
+  left: 35px;
+  top: 133px;
+
+  line-height: 110%;
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.01em;
+}
+
+.content__text {
+  position: absolute;
+  width: 233px;
+  height: 186px;
+  left: 35px;
+  top: 180px;
+
+  line-height: 110%;
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.01em;
+}
+
+.btn__start {
+  position: absolute;
+  width: 37px;
+  height: 18px;
+  left: 341px;
+  top: 348px;
+
+  line-height: 110%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.01em;
+
+  color: black;
+}
