@@ -1,27 +1,25 @@
-/* fuentes externas*/
 @font-face {
   font-family: "NotoSerif";
   src: url(/assets/tipografia/NotoSerif-Regular.ttf);
-  font-display: swap;
 }
+
 @font-face {
   font-family: "Nunito";
   src: url(/assets/tipografia/Nunito-Regular.ttf);
-  font-display: swap;
 }
 
 body {
   font-family: "Nunito";
-  font-weight: 400;
   font-size: 16px;
-  line-height: 17.6px;
+  font-weight: 400;
   letter-spacing: 1%;
+  line-height: 17.6px;
 }
 
 h1 {
   font-family: "NotoSerif";
-  font-weight: 700;
   font-size: 36px;
+  font-weight: 700;
   line-height: 39.6px;
 }
 
@@ -31,61 +29,53 @@ h2 {
 }
 
 .heading__title {
-  position: absolute;
-  width: 410px;
+  align-items: center;
+  display: flex;
   height: 40px;
   left: 159px;
-  top: 70px;
-
-  line-height: 110%;
-
-  display: flex;
-  align-items: center;
-  text-align: center;
   letter-spacing: 0.01em;
+  line-height: 110%;
+  position: absolute;
+  text-align: center;
+  top: 70px;
+  width: 410px;
 }
 
 .heading__subtitle {
-  position: absolute;
-  width: 101px;
+  align-items: center;
+  display: flex;
   height: 26px;
   left: 35px;
-  top: 133px;
-
-  line-height: 110%;
-
-  display: flex;
-  align-items: center;
-  text-align: center;
   letter-spacing: 0.01em;
+  line-height: 110%;
+  position: absolute;
+  text-align: center;
+  top: 133px;
+  width: 101px;
 }
 
 .content__text {
-  position: absolute;
-  width: 233px;
+  align-items: center;
+  display: flex;
   height: 186px;
   left: 35px;
-  top: 180px;
-
-  line-height: 110%;
-
-  display: flex;
-  align-items: center;
   letter-spacing: 0.01em;
+  line-height: 110%;
+  position: absolute;
+  top: 180px;
+  width: 233px;
 }
 
 .btn__start {
-  position: absolute;
-  width: 37px;
+  align-items: center;
+  color: black;
+  display: flex;
   height: 18px;
   left: 341px;
-  top: 348px;
-
-  line-height: 110%;
-  display: flex;
-  align-items: center;
-  text-align: center;
   letter-spacing: 0.01em;
-
-  color: black;
+  line-height: 110%;
+  position: absolute;
+  text-align: center;
+  top: 348px;
+  width: 37px;
 }
