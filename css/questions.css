@@ -1,0 +1,42 @@
+.content input,
+label {
+  display: flex;
+  padding-bottom: 0.75rem;
+}
+
+/*layout Question-three*/
+
+.form-three {
+  display: grid;
+  grid-column: 1/4;
+  grid-template-columns: 0.8fr 1fr 0.1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  font-weight: bold;
+}
+
+.form-three label {
+  padding: 0.5rem;
+}
+
+.content__text {
+  display: grid;
+  grid-column: 1/4;
+}
+
+.respuesta1 {
+  grid-column: 1;
+}
+
+.respuesta2 {
+  grid-column: 2;
+}
+
+.respuesta3 {
+  grid-column: 3;
+}
+
+.btn__rage {
+  align-self: flex-end;
+  grid-column: 4;
+  text-align: right;
+}

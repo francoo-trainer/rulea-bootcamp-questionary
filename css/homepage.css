@@ -6,6 +6,9 @@
   display: grid;
   grid-template-columns: 2fr 1fr;
 }
+.main-grid--questions {
+  grid-template-rows: repeat(1fr);
+}
 
 .heading__title {
   text-align: center;
