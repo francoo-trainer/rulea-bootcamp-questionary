@@ -11,25 +11,34 @@
     <title>Question-Two</title>
   </head>
     <body class="main-template"></body>
-    <header class="heading">
-      <h1 class="heading__title">Titulo</h1>
-      <h2 class="heading__subtitle">Question-Two</h2>
+       <header class="heading">
+       <h1 class="heading__title">Titulo</h1>
     </header>
 
     <main class="main-grid">
+      <fieldset>
       <section class="content--questions">
-        <p class="content__text">What are the principles of responsive design?</p>
-        <form action="" class="form-one" target="_blank">
-         <label for="">
-         <input type="checkbox" name="form-two" id="" value="question-two" />Grids flexible, img-flexible, Media queries </label>
-         <label for="">
-         <input type="checkbox" name="form-two" id="" value="question-two" />Media queries, Grids flexible, display:grid </label>
-         <label for="">
-         <input type="checkbox" name="form-two" id="" value="question-two" />Img-flexible, display:flex, boxmodel, does not fit the device</label>
+        <form class="form-one" id="form-list">
+        <legend class="content__text"> What are the principles of responsive design?</legend>
+           <p class="form">
+           <label for="gridsflex">
+           <input type="checkbox" name="query2" id="gridsflex" value="1" />Grids flexible, img-flexible. </label>
+           </p>
+           <p class="form">
+           <label for="mediaqueries">
+           <input type="checkbox" name="query2" id="mediaqueries" value="2" />Media queries.  </label>
+           </p>
+           <p class="form">
+           <label for="img-flexible">
+           <input type="checkbox" name="query2" id="img-flexible" value="3" />Img-flexible, display:flex, boxmodel.</label>
+           </p>
         </form>
       </section>
+        </fieldset>
+
       <section class="btn">
     <a class="btn__start" href="./question-three.html">Next</a>
     </section>
+    </main>
   </body>
 </html>

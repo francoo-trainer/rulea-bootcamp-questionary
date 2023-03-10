@@ -14,19 +14,24 @@
     <body class="main-template"></body>
     <header class="heading">
       <h1 class="heading__title">Titulo</h1>
-      <h2 class="heading__subtitle">Question-One</h2>
     </header>
 
     <main class="main-grid">
+      <fieldset>
       <section class="content--questions">
-        <p class="content__text">What property should I use if I want to paste a menu into a web page with CSS? </p>
-        <form action="" class="form-one" target="_blank">
-         <label for="">
-         <input type="radio" name="form-one" id="" value="question-One" />position: relative</label>
-         <label for="">
-         <input type="radio" name="form-one" id="" value="question-One" />position: absolut </label>
-         <label for="">
-          <input type="radio" name="form-one" id="" value="question-One" />position: fixed </label>
+         <form class="form-one" id="form-list">
+         <legend class="content__text">What property should I use if I want to paste a menu into a web page with CSS? </legend>
+         <p class="form">
+         <label for="relative">
+         <input type="radio" name="query1" id="relative" value="1" />position: relative</label>
+         </p>
+         <label for="absolut">
+         <input type="radio" name="query1" id="absolut" value="2" />position: absolut </label>
+         <p>
+         <label for="fixed">
+          <input type="radio" name="query1" id="fixed" value="3" />position: fixed </label>
+          </p>
+        </fieldset>
         </form>
       </section>
 

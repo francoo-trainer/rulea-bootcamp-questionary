@@ -13,22 +13,31 @@
  <body class="main-template"></body>
     <header class="heading">
       <h1 class="heading__title">Titulo</h1>
-      <h2 class="heading__subtitle">Question-Three</h2>
     </header>
 
     <main class="main-grid">
-
+<fieldset>
       <section class="content__question-three">
-        <p class="content__text">With which javascrip function can I pass data through the console?</p>
-        <form action="" class="form-three" target="_blank" >
+        <form class="form-three" id="form-list">
+
+         <legend class="content__text">With which javascrip function can I pass data through the console?</legend>
+
           <input type="range" class="form-three" id="range"min="0" max="2" step="1">
-          <label class="respuesta1" for="range"> Console.Alert()</label>
-          <label class="respuesta2" for="range">Console.log()</label>
-          <label class="respuesta3" for="range">Console.Import()</label>
+          <p>
+          <label class="answer1" for="range"> Console.Alert()</label>
+          </p>
+          <p>
+          <label class="answer2" for="range">Console.log()</label>
+          </p>
+          <p>
+          <label class="answer3" for="range">Console.Import()</label>
+          </p>
+        </fieldset>
         </form>
       </section>
-      <section class="btn">
-    <a class="btn__range" href="/Flow/result.html">Next</a>
+    <section class="btn">
+      <a class="btn__range" href="/Flow/result.html">Next</a>
     </section>
+  </main>
   </body>
-</html>
+  </html>
