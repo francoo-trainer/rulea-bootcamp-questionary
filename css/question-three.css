@@ -1,0 +1,26 @@
+/*layout Question-three*/
+
+.form__list {
+  display: grid;
+  grid-column: 1/4;
+  grid-template-columns: 1fr 1fr 1fr;
+  appearance: none;
+}
+
+.input__btn {
+  width: 100%;
+  height: 10px;
+  background: grey;
+  -webkit-appearance: none;
+  border-radius: 25px;
+}
+
+.form__item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.form__item label {
+  padding: 1rem;
+}

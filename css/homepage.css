@@ -1,8 +1,8 @@
-.main-template {
+.main__template {
   margin: 70px 35px 0;
 }
 
-.main-grid {
+.main__grid {
   display: grid;
   grid-template-columns: 2fr 1fr;
 }

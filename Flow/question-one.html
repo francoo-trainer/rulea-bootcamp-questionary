@@ -4,10 +4,62 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/normalize.css" />
+    <link rel="stylesheet" href="/css/typography.css" />
+    <link rel="stylesheet" href="/css/global-style.css" />
+    <link rel="stylesheet" href="/css/homepage.css" />
 
-    <title>question-one</title>
+    <title>Question-One</title>
   </head>
-  <body>
-    <a href="question-two.html">Next</a>
+
+  <body class="main__template">
+    <header class="heading">
+      <h1 class="heading__title">Titulo</h1>
+    </header>
+
+    <main class="main__grid">
+      <form class="form__list" id="form-list">
+        <fieldset>
+          <legend class="content__text">
+            What property should I use if I want to paste a menu into a web page
+            with CSS?
+          </legend>
+          <p class="form__item">
+            <input
+              id="answerone"
+              class="input__btn"
+              type="radio"
+              name="query1"
+              value="1"
+            />
+            <label for="answerone">position: relative</label>
+          </p>
+          <p class="form__item">
+            <input
+              id="answertwo"
+              class="input__btn"
+              type="radio"
+              name="query1"
+              value="2"
+            />
+            <label for="answertwo">position: absolut </label>
+          </p>
+          <p class="form__item">
+            <input
+              id="answerthree"
+              class="input__btn"
+              type="radio"
+              name="query1"
+              value="3"
+            />
+            <label for="answerthree">position: fixed</label>
+          </p>
+        </fieldset>
+      </form>
+
+      <section class="btn">
+        <a href="./question-two.html" class="btn__start">Next</a>
+      </section>
+    </main>
   </body>
 </html>
