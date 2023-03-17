@@ -4,41 +4,62 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/normalize.css" />
     <link rel="stylesheet" href="/css/typography.css" />
     <link rel="stylesheet" href="/css/global-style.css" />
     <link rel="stylesheet" href="/css/homepage.css" />
-    <link rel="stylesheet" href="/css/questions.css">
+
     <title>Question-Two</title>
   </head>
-    <body class="main-template"></body>
-       <header class="heading">
-       <h1 class="heading__title">Titulo</h1>
+
+  <body class="main__template">
+    <header class="heading">
+      <h1 class="heading__title">Titulo</h1>
     </header>
 
-    <main class="main-grid">
-      <fieldset>
-      <section class="content--questions">
-        <form class="form-one" id="form-list">
-        <legend class="content__text"> What are the principles of responsive design?</legend>
-           <p class="form">
-           <label for="gridsflex">
-           <input type="checkbox" name="query2" id="gridsflex" value="1" />Grids flexible, img-flexible. </label>
-           </p>
-           <p class="form">
-           <label for="mediaqueries">
-           <input type="checkbox" name="query2" id="mediaqueries" value="2" />Media queries.  </label>
-           </p>
-           <p class="form">
-           <label for="img-flexible">
-           <input type="checkbox" name="query2" id="img-flexible" value="3" />Img-flexible, display:flex, boxmodel.</label>
-           </p>
-        </form>
-      </section>
+    <main class="main__grid">
+      <form class="form__list" id="form-list">
+        <fieldset>
+          <legend class="content__text">
+            What are the principles of responsive design?
+          </legend>
+          <p class="form__item">
+            <input
+              id="answerone"
+              class="input__btn"
+              type="checkbox"
+              name="query1"
+              value="1"
+            />
+            <label for="answerone">Grids flexible, img-flexible.</label>
+          </p>
+          <p class="form__item">
+            <input
+              id="answertwo"
+              class="input__btn"
+              type="checkbox"
+              name="query1"
+              value="2"
+            />
+            <label for="answertwo">Media queries. </label>
+          </p>
+          <p class="form__item">
+            <input
+              id="answerthree"
+              class="input__btn"
+              type="checkbox"
+              name="query1"
+              value="3"
+            />
+            <label for="answerthree"
+              >Img-flexible, display:flex, boxmodel.</label
+            >
+          </p>
         </fieldset>
-
+      </form>
       <section class="btn">
-    <a class="btn__start" href="./question-three.html">Next</a>
-    </section>
+        <a class="btn__start" href="./question-three.html">Next</a>
+      </section>
     </main>
   </body>
 </html>
